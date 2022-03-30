@@ -6,7 +6,7 @@
 .para {
   font-size: 22px;
 }
-
+/* changed order*/
 .small-para {
   font-size: 14px;
 }
@@ -27,7 +27,7 @@ div.text {
   color: green;
   font-size: 22px;
 }
-
+/* Added div to child to specify what line to edit */
 div.child {
   color: red;
   font-size: 14px;
