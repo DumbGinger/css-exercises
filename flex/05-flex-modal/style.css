@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px; /* Added padding */
 }
 
 .icon {
@@ -63,4 +64,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* this is where a majority of my solution will go */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: 8px;
+  align-self: flex-start;
+}
+
+.text {
+  margin-left: 52px;
+  margin-bottom: 12px;
+  margin-top: -8px;
+}
+
+.button-box {
+  margin-left: 52px;
 }
