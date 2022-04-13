@@ -26,3 +26,65 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution is listed below this line */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.sidebar {
+  display: flex;
+  flex-shrink: 0;
+  width: 300px;
+  padding: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.deck {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 32px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  margin: 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
